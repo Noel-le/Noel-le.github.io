@@ -5,16 +5,16 @@ body{
 
 #caution{
   text-align: center;
-  margin-top: 100px;
-  font-size: 11px;
+  margin-top: 98px;
+  font-size: 10px;
   color: rgb(252, 85, 121);   
 }
 
 #main {
   text-align: center;
-  font-size: 23px;
+  font-size: 22px;
   font-family: 'Do Hyeon', sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   color: rgb(53, 85, 153);
 }
 
