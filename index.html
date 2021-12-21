@@ -1,54 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BUS-KIT</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>westagram practice</title>
+     <link href="demo.css" rel="stylesheet" type="text/css" />
+    <link href="demo.css" rel="stylesheet" type="text/css" />
+    <header>
+      <h4>BUSKIT</h4>
+    </header>
 
-  <!--금오공대 버스정보 title-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
-
-  <!--Button Style-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" type = "text/css" href="index.css">
   
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JEW70K12LL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  </head>
+  <body>
 
-    gtag('config', 'G-JEW70K12LL');
-  </script>
+    <div class="contentsWrap">
+      <div class="infoWindow">
+         
+        <h2>금오공대 버스정보</h2>
+        <div class="dropdown1">
+          <button class="dropbtn1"> 
+            School ▷
+          </button>
+          <div class="dropdown-content1">
+            <a href="http://127.0.0.1:5500/sc_st/index.html">구미역 방면</a>
+            <a href="http://127.0.0.1:5500/sc_ok.html">옥계 방면</a>
+          </div>
+        </div>
+        <div class="dropdown2">
+          <button class="dropbtn2"> 
+          School ◁
+          </button>
+          <div class="dropdown-content2">
+            <a href="http://127.0.0.1:5500/st_sc/index.html">공대 방면</a>
+          </div>
+        </div>
 
 
-</head>
-<body>
-  <div id = "caution">
-    <h2>도로교통 상황에 따라 10분 이상 지연될 수 있습니다</h2>
-  </div>
-  
-  <div id="main">
-    <h1>금오공대 버스정보</h1>
-    <a href="https://noel-le.github.io/sc_st/"><input type="submit" value="공대 ▶ 구미역" ></a>  
-    <a href="https://noel-le.github.io/st_sc/"><input type="submit" value="구미역 ▶ 공대"></a>
-  </div>
+          <div class="horizonAndOrWrap">
+              <hr class="leftHr">
+              <div class="or">caution</div>
+              <hr class="rightHr">
+          </div>
+              <p>도로교통 상황에 따라 <br>10분이상 지연될 수 있습니다</p> 
+          </button>
+          </a>
+
+        </div>
+    </div>
   </body>
 
-<footer>
-  <ul>
-  
-    [ 구미버스 운행정보 및 피드백 ] <br><br>
-    <a href="http://bis.gumi.go.kr/main/main.do", id="Gumi_link"> 구미 버스정보시스템 바로가기</a> <a href="https://forms.gle/62TK9NoHTZ9dQNAc9", id = 'feedback'>feedback</a><br>
-    © admin_kkomag
-    <br><br>
-  </ul>
-</footer>
+  <footer>
+    <ul>
+    
+      [ 구미버스 운행정보 및 피드백 ] <br><br>
+      <a href="http://bis.gumi.go.kr/main/main.do", id="Gumi_link"> 구미 버스정보시스템 바로가기</a> <a href="https://forms.gle/62TK9NoHTZ9dQNAc9", id = 'feedback'>feedback</a><br>
+      <br> © admin_kkomag
+    </ul>
+  </footer>
+  </html>
 </html>
