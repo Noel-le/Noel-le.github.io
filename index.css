@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 header {
   text-align: center;
   position: fixed;
@@ -157,11 +159,6 @@ footer{
 
 
 
-
-
-/*     main.css code    */
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
 /*  dropdown box style   */
 
 /****************  dropdown1  **************/
@@ -286,3 +283,4 @@ footer{
 #feedback{
   color: aliceblue;
 }
+
