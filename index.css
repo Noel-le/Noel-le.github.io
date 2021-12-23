@@ -15,7 +15,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 h2 {
@@ -28,7 +27,7 @@ body {
   background-color: #e0f1ff;
 }
 
-.contentsWrap{
+.contentsWrap {
   margin: 90px auto;
   max-width: 340px;
   border: none;
@@ -42,10 +41,9 @@ body {
   padding-bottom: 30px;
   border: 1px solid #dfdfdf;
   border-radius: 10px;
-
 }
 
-.infoWindow input{
+.infoWindow input {
   margin-bottom: 23px;
   background-color: #f5f5f5;
   height: 37px;
@@ -55,7 +53,7 @@ body {
   border-radius: 4px;
 }
 
-.infoWindow input::placeholder{
+.infoWindow input::placeholder {
   font-size: 12px;
   font-weight:100;
 }
@@ -77,21 +75,15 @@ body {
   font-weight: 700;
 }
 
-
-
-
 .infoWindow * {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
 .inlineToBlock {
   display: block;
 }
-
 
 .horizonAndOr {
   margin:10% 0;
@@ -99,12 +91,11 @@ body {
   box-sizing: border-box;
 }
 
-.horizonAndOrWrap{
+.horizonAndOrWrap {
   margin-top: 40px;
   margin-bottom: 40px;
 
 }
-
 
 .leftHr {
   float:left;
@@ -112,7 +103,7 @@ body {
   box-sizing: border-box;
 }
 
-.or{
+.or {
   float:left;
   width:17%;
   margin:2px 5%;
@@ -123,7 +114,6 @@ body {
   font-size: 14px;
   font-weight: 800;
   margin:2px 10%;
-  
 }
 
 .rightHr {
@@ -132,18 +122,16 @@ body {
   box-sizing: border-box;
 }
 
-
 p {
   font-size: 14px;
   padding-top: 10%;
 }
 
-
 .noneunderline {
   text-decoration:none;
 }
 
-footer{
+footer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -159,20 +147,15 @@ footer{
 }
 
 
-
-
 /*  dropdown box style   */
-
-/****************  dropdown1  **************/
-.dropdown1{
+/* dropdown1 */
+.dropdown1 {
   position : relative;
   display : inline-block;
   width: 125px;
-
 }
 
-
-.dropbtn1{
+.dropbtn1 {
   border : 1px solid cornflowerblue;
   border-radius : 4px;
   background-color: cornflowerblue;
@@ -184,11 +167,9 @@ footer{
   cursor : pointer;
   font-size : 13px;
   margin-left: 15;
-
 }
 
-
-.dropdown-content1{
+.dropdown-content1 {
   display : none;
   position : absolute;
   z-index : 1;   /*다른 요소들보다 앞에 배치*/
@@ -197,8 +178,7 @@ footer{
   min-width : 110px;
 }
 
-
-.dropdown-content1 a{
+.dropdown-content1 a {
   display : block;
   text-decoration : none;
   color : rgb(37, 37, 37);
@@ -206,32 +186,28 @@ footer{
   padding : 12px 20px;
 }
 
-
-.dropdown-content1 a:hover{
+.dropdown-content1 a:hover {
   background-color : #ececec
 }
-
 
 .dropdown1:hover .dropdown-content1 {
   display: block;
 }
 
 
-
-/****************  dropdown2  **************/
-.dropdown2{
+/*  dropdown2  */
+.dropdown2 {
   position : relative;
   display : inline-block;
   width: 125px;
 }
 
-.dropdown2{
+.dropdown2 {
   position : relative;
   display : inline-block;
 }
 
-
-.dropbtn2{
+.dropbtn2 {
   border : 1px solid cornflowerblue;
   border-radius : 4px;
   background-color: cornflowerblue;
@@ -245,8 +221,7 @@ footer{
   margin-left: 15;
 }
 
-
-.dropdown-content2{
+.dropdown-content2 {
   display : none;
   position : absolute;
   z-index : 1;   /*다른 요소들보다 앞에 배치*/
@@ -255,8 +230,7 @@ footer{
   min-width : 110px;
 }
 
-
-.dropdown-content2 a{
+.dropdown-content2 a {
   display : block;
   text-decoration : none;
   color : rgb(37, 37, 37);
@@ -264,8 +238,7 @@ footer{
   padding : 12px 20px;
 }
 
-
-.dropdown-content2 a:hover{
+.dropdown-content2 a:hover {
   background-color : #ececec
 }
 
@@ -274,15 +247,11 @@ footer{
 }
 
 
-
-
-
-/**********    footer    ***********/
-#Gumi_link{
+/*  footer  */
+#Gumi_link {
   color: aliceblue;
 }
 
-#feedback{
+#feedback {
   color: aliceblue;
 }
-
