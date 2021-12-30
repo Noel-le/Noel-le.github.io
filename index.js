@@ -3,10 +3,10 @@ var day = new Date();
 var week = new Array('일','월','화','수','목','금','토');
 
 // get_now_time
-  var hours = day.getHours(); 
-  var minutes = day.getMinutes();
-  var seconds = day.getSeconds(); 
-  var now_time = hours * 3600 + minutes * 60  + seconds;
+var hours = day.getHours(); 
+var minutes = day.getMinutes();
+var seconds = day.getSeconds(); 
+var now_time = hours * 3600 + minutes * 60  + seconds;
 
 
 
