@@ -16,9 +16,38 @@
     gtag('js', new Date());
     gtag('config', 'G-JEW70K12LL');
   </script>
-  
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <style>
+     .swal-modal{
+       width: 75%;
+     }
+     .swal-title{
+       color: rgb(0, 0, 0);
+       font-size: 17px;
+       padding: 0px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+     }
+     .swal-text{
+       font-size: 13px;
+       color: rgb(66, 66, 66);
+     }
+     .swal-button {
+       background-color: #7ea3ff;
+       font-size: 5px;
+       color: rgb(255, 255, 255);
+     }
+   </style>
   </head>
   <body>
+
+    <script>
+      function message(){
+        swal("Notice","시간표확인이 가능한 사이트로 보완하였습니다. https://buskit.netlify.app 에서 확인하실수 있습니다.");
+      }; message()
+    </script>
+  
     <div class="contentsWrap">
       <div class="infoWindow">        
         <h2>금오공대 버스정보</h2>
